@@ -1,7 +1,10 @@
 body {
 	font-family: Arial;
 	color: #ABABAB;
-	padding: 100px;
+	padding-top: 80px;
+	padding-right: 80px;
+	padding-left: 80px;
+	padding-bottom: 50px;
 	font-weight:bold;
 	
 font-size:95%;
@@ -15,7 +18,18 @@ font-size:95%;
 	margin-right: auto;
 	width: 1000px;
 }
+	.count {
+		padding-top: 45px;
+	}
 
+	.smallwords {
+		text-align: center;
+		font-size: x-small;
+		font-style: italic;
+		font-family: georgia;
+		padding-top: 15px;
+		color: #3B3B3B;
+	}
 
 	.button1 {
 padding: 5px 10px 6px !important;
