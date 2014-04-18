@@ -1,0 +1,111 @@
+<html>
+<head>
+	<title>Grade Calculation</title>
+	<link rel="stylesheet" href="pretty.css" />
+
+</head>
+
+<body>
+<div id="wrapper">
+<header class="logo">
+	<div class="toppage" id="toppage">
+	ACE That Test
+	</div>
+</header>
+
+<br>
+<br>
+<br>
+
+<div class="globaldiv" id='globaldiv'>
+<div>
+	Use this calculator if you know the percent value of your final exam:
+</div>
+
+<ol>
+	<li>
+		Current Grade:
+		<input type="number" id="current" min="0" max="100">
+		%
+	</li>
+	<br>
+	<li>
+		Desired Grade:
+		<input type="number" id="desired" min="0" max="100">
+		%
+	</li>
+	<br>
+	<li>
+		Value of Final:
+		<input type="number" id="finalVal" min="0" max="100">
+		%
+	</li>
+
+</ol>
+
+
+
+<button class="button1" id="button1">Calculate Needed Grade</button>
+
+<div class="needed" id="needed">
+	Minimum grade on final exam: <span></span>%
+</div>
+
+
+<div>
+	Use this calculator if you don't know the percent value of your final exam:
+</div>
+
+<ol>
+	<li>
+		Value of the section the final exam is in:
+		<input type="number" id="secVal" min="0" max="100">
+		%
+		<!--<a href="123.png" target="_blank">
+			<img src="123.png" height="75">
+		</a>-->
+	</li>
+	<br>
+	<li>
+		Total number of points in that section:
+		<input type="number" id="totalPts" min="0" max="100">
+		pts
+	</li>
+	<br>
+	<li>
+		Number of point the final exam is worth:
+		<input type="number" id="examVal" min="0" max="100">
+		pts
+	</li>
+	<br>
+	<li>
+		Current Grade:
+		<input type="number" id="currentNum2" min="0" max="100">
+		%
+	</li>
+	<br>
+	<li>
+		Desired Grade:
+		<input type="number" id="desiredNum2" min="0" max="100">
+		%
+	</li>
+</ol>
+
+<button class="buttonNum2" id="buttonNum2">Calculate Needed Grade</button>
+
+<br>
+
+
+<div class="anotherDiv" id="anotherDiv">
+	Minimum grade on final exam: <span></span>%
+</div>
+
+</div>
+
+<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+<script src="things.js"></script>
+<script src="button2doc.js"></script>
+</div>
+</body>
+
+</html>
